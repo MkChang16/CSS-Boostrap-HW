@@ -14,7 +14,6 @@ main {
 
 .Portfolio-Article {
     background-color: #fff;
-  
     padding: 30px;
     margin-bottom: 30px;
     display: flex;
@@ -38,4 +37,40 @@ hr{
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.Contact-Article{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contact-Header{
+    position: absolute;
+}
+
+.Index-Article{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Index-Header{
+    position: absolute;
+}
+
+.Contact-Form{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.submit-btn{
+    border-style: solid;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: lighter;
 }
