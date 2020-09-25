@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chang's Contact</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" media="screen">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class=container>
+            <a class="navbar-brand" href="portfolio.html">Michael Chang</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>        
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <main class="contact-row">
+            <div class="col-md-8">
+                <article class="contact-Article">
+                    <h1 class="contact-Header">Contact</h1>
+                    <hr>
+                        <form class="contact-Form">
+                            <div class="form-group form-control-lg">
+                                <label for="name-Input" >Name</label>
+                                <input type="name" class="form-control" id="name-Input" placeholder="Name">
+                            </div>
+                        </form>
+                        <form class="contact-Form">
+                            <div class="form-group form-control-lg">
+                                <label for="email-Address-Input" >Email address</label>
+                                <input type="email" class="form-control" id="email-Address-Input" placeholder="Email">
+                            </div>
+                        </form>
+                        <form class="contact-Form">
+                            <div class="form-group form-control-lg form-control-wide">
+                                <label for="message-Input" >Message</label>
+                                <textarea id="message" class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                        <button class="submit-btn">Submit</button>
+                        </form>
+                </article>       
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-Design"></div>
+        <p class="text-center">
+            &copy; Copyright 2020 Michael Chang
+        </p>
+    </footer> 
+</body>
+</html>
